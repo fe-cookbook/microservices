@@ -1,6 +1,6 @@
 {
-  "name": "micro-fe",
-  "version": "1.0.0",
+  "name": "@www.wolong.cn/microservices",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/fe-cookbook/microservices/issues"
   },
-  "homepage": "https://github.com/fe-cookbook/microservices#readme"
+  "homepage": "https://github.com/fe-cookbook/microservices#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "axios-retry": "^3.1.8",
+    "element-ui": "^2.13.2",
+    "lodash": "^4.17.19",
+    "vue": "^2.6.11",
+    "vue-property-decorator": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.159",
+    "typescript": "^3.9.7"
+  }
 }
